@@ -22,7 +22,7 @@ void loop() {
 int DATA = analogRead(GAS_SENSOR);
 Serial.println(DATA);
 delay(1000);
-if( DATA > 350)
+if( DATA > 350) // Analog data is read
   {   
     Serial.println("Found GAS");
     digitalWrite(RED,HIGH);
