@@ -10,6 +10,7 @@ void setup()
  digitalWrite(RELAY,LOW);
  Serial.println("Ready to connect\nDefualt password is 1234 or 000"); 
 } 
+
 void loop() 
 { 
  if (MyBlue.available()) {
