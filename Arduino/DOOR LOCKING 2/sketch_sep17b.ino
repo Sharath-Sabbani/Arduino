@@ -11,7 +11,8 @@ char keys[4][4]={ // LAYOUT OF KEYPAD
  {'4','5','6', 'B'},
  {'7','8','9', 'C'},
  {'*','0','#', 'D'}};
- 
+
+
 byte rowPin[4]={4,5,6,7}; // ROW PINS OF KEYPAD
 byte colPin[4]={8,9,10,11}; // COLUMN PINS OF KEYPAD
 
