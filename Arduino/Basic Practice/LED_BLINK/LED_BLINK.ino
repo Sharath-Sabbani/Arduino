@@ -5,6 +5,7 @@ void setup(){
   lcd.setCursor(0,0);
   lcd.blink();
   lcd.print("WELCOME:");
+  lcd.print("Nivedita");
    lcd.setCursor(0,1);
   lcd.blink();
   lcd.print("ONEPIECE");
