@@ -14,7 +14,6 @@ pinMode(BUZZER,OUTPUT);
 pinMode(Module,INPUT);
 noTone(BUZZER);
 digitalWrite(LED,LOW);
-
 }
 
 
