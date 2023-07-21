@@ -13,6 +13,7 @@ char hexkey [ROWS][COLS]={
 };
 byte rowpin[ROWS] = {A0,A1,A2,A3};
 byte colpin[COLS] = {6,7,8,9};
+
 const int led = 13;
 const int motor = A4;
 char code[4];
