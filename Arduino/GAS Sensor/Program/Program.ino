@@ -4,6 +4,7 @@ int RED = 3 ;
 int GREEN = 2;
 int BUZZ = 7;
 const int Frequency = 500;
+
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600);
