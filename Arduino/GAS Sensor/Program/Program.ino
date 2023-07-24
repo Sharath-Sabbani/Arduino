@@ -15,7 +15,6 @@ pinMode(BUZZ,OUTPUT);
 digitalWrite(RED,LOW);
 digitalWrite(GREEN,HIGH);
 noTone(BUZZ);
-
 }
 
 void loop() {
