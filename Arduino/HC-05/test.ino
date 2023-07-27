@@ -13,6 +13,7 @@ void setup()
 
 void loop() 
 { 
+ 
  if (MyBlue.available()) {
    flag = Serial.read(); 
  if (flag == '1') 
