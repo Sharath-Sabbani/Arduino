@@ -9,6 +9,7 @@ void setup(){
    lcd.setCursor(0,1);
   lcd.blink();
   lcd.print("ONEPIECE");
+  
   lcd.scrollDisplayRight();
   lcd.autoscroll();
 }
